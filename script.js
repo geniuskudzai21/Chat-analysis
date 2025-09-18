@@ -613,10 +613,10 @@ function createWordCloud(wordFrequency) {
     const container = document.getElementById('wordCloud');
     container.innerHTML = '';
     
-    // Get top 20 words only
+    // Get top 10 words only
     const words = Object.entries(wordFrequency)
         .sort((a, b) => b[1] - a[1])
-        .slice(0, 20);
+        .slice(0, 10);
     
     if (words.length === 0) {
         container.innerHTML = '<p class="text-gray-500">Not enough data to generate word cloud</p>';
@@ -764,4 +764,5 @@ function disableDarkMode() {
     localStorage.setItem('darkMode', 'false');
 
 }
+
 
