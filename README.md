@@ -27,6 +27,7 @@ CSS Framework: Tailwind CSS
 Visualization Libraries: Chart.js
 Icons: Font Awesome
 Text Processing: Custom regex-based parsers
+Sentiment.js - For sentiment analysis of text content
 Storage: Browser Local Storage API
 
 How to Use
@@ -40,26 +41,4 @@ Explore the insights through various charts and statistics
 Privacy & Security
 This application processes your chat data entirely within your browser. Your conversations are never sent to any external server, ensuring complete privacy and security.
 
-Browser Compatibility
-Works on all modern browsers that support:
-File API
-Local Storage API
-ES6+ JavaScript features
-Canvas API (for charts)
-
-File Format Support
-
-Currently supports text exports from:
-WhatsApp (.txt)
-Telegram (.txt)
-Facebook Messenger (.txt)
-File size limit: 10MB
-
-Potential future improvements could include:
-
-Enhanced sentiment analysis
-Export functionality for reports
-Comparison between different chats
-
-
-Link https://geniuskudzai21.github.io/Chat-analysis/
+Link https://geniuskudzai21.github.io/Intelligent-Chat-Analyzer/
