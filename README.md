@@ -1,4 +1,4 @@
-#Intelligent Chat Analyzer
+Intelligent Chat Analyzer
 
 A powerful web application that analyzes your chat exports from WhatsApp, Telegram, and Facebook Messenger to provide insightful visualizations and statistics about your conversations.
 
@@ -62,4 +62,4 @@ Export functionality for reports
 Comparison between different chats
 
 
-https://geniuskudzai21.github.io/Chat-analysis/
+Link https://geniuskudzai21.github.io/Chat-analysis/
