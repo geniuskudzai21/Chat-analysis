@@ -1,14 +1,15 @@
 #Intelligent Chat Analyzer
+
 A powerful web application that analyzes your chat exports from WhatsApp, Telegram, and Facebook Messenger to provide insightful visualizations and statistics about your conversations.
 
 Features
-Multi-Platform Support: Analyze exports from WhatsApp, Telegram, and Facebook Messenger
+-Multi-Platform Support: Analyze exports from WhatsApp, Telegram, and Facebook Messenger
 
 Interactive Visualizations:
-Activity over time charts
-User distribution pie charts
-Active hours analysis
-Word clouds of most frequent terms
+-Activity over time charts
+-User distribution pie charts
+-Active hours analysis
+-Word clouds of most frequent terms
 
 Detailed Statistics:
 Most active user identification
