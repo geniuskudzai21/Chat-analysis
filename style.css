@@ -1,0 +1,88 @@
+ :root {
+    --primary: ##1e293b;;
+    --secondary: #1e293b;
+    --accent: #8b5cf6;
+    --light: #f8fafc;
+    --dark: #1e293b;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+}
+.card {
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.chart-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.word-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 300px;
+}
+.word {
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.word:hover {
+    transform: scale(1.1);
+}
+.word-count {
+    font-size: 10px;
+    margin-top: 2px;
+    opacity: 0.8;
+}
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+}
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+.chart-scroll-container {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.chart-scroll-content {
+    min-width: 600px;
+}
+
+.awards-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.awards-dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+}
+.awards-dropdown:hover .awards-dropdown-content {
+    display: block;
+}
